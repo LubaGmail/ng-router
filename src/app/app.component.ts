@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-router';
+  onSelect() {
+    console.log('onSelect');
+    let a = document.getElementById('main');
+    a.style.display = 'none';
+  }
 }
+
+
