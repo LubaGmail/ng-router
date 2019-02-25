@@ -16,6 +16,7 @@ import { ServersService } from './servers/servers.service';
 const AppRoutes = [
   { path: '', component: HomeComponent },               // localhost:4200/users
   { path: 'users', component: UsersComponent },
+  { path: 'users/:id/:name', component: UserComponent },
   { path: 'servers', component: ServersComponent }
 ];
 
